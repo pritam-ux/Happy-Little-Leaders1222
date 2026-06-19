@@ -1,0 +1,10 @@
+{
+  "name": "happy-little-leaders",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo root — delegates build to frontend/ for Vercel/Netlify deploys.",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "preview": "cd frontend && npm run preview"
+  }
+}
